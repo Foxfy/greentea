@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A4BE7B;
+}
+main
+{
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+    background-color: #A4BE7B;
+    font-size: 25px;
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menu li{
+    margin-left: 40px;
+}
+
+.menu li a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fotg{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    place-items: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fotg div{
+    width: 100px;
+    height: 100px;
+}
+
+.fotg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    columns: 200px;
+    object-fit: cover;
+    
+}
+.topg{
+    width: 100%;
+    height: 250px;
+}
+
+.topg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.txth{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-180%);
+    font-size: 32px;
+    color: #C1DF92;
+    font-weight: bold;
+}
+
+footer{
+    height: 100px;
+    background-color: transparent;
+    
+}
+.textp{
+    margin: 10px;
+    text-align: center;
+    justify-content: center;  
+}
+
+
+/*แท็บเล็ต*/
+@media (min-width:768px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #A4BE7B;
+        font-size: 25px;
+    }
+    
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .menu{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .menu li a{
+        color: black;
+        font-size: 26px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .menu li{
+        margin-left: 40px;
+    }
+    
+    .fotg{
+        display: grid;
+        grid-template-columns: repeat(3,33.33%);
+        place-items: center;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .fotg div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .fotg img{
+        width: 240px;
+        height: 210px;
+        border-radius: 50px;
+        object-fit: cover;
+        
+    }
+    .topg{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .txth{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-260%);
+        font-size: 64px;
+        color: #C1DF92;
+        font-weight: bold;
+    }
+    
+    .textp{
+        margin: 10px;
+        font-size: 32px;
+        text-align: center;
+        justify-content: center;  
+    }
+}
+
+
+
+@media (min-width:922px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #A4BE7B;
+        font-size: 25px;
+    }
+    
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .menu{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .menu li a{
+        color: black;
+        font-size: 32px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .menu li{
+        margin-left: 40px;
+    }
+    
+    .fotg{
+        display: grid;
+        grid-template-columns: repeat(3,33.33%);
+        place-items: center;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        column-gap: 10px;
+    }
+
+    .fotg div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .fotg img{
+        width: 100%;
+        height: 410px;
+        border-radius: 50px;
+        object-fit: cover;
+        
+    }
+    .topg{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .txth{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-280%);
+        font-size: 64px;
+        color: #C1DF92;
+        font-weight: bold;
+    }
+    
+    .textp{
+        margin: 10px;
+        font-size: 32px;
+        text-align: center;
+        justify-content: center;  
+    }
+}
