@@ -85,13 +85,13 @@ nav{
     display: flex;
     flex-basis: 50%;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 .img img{
-    width: 320px;
-    height: 400px;
+    width: 220px;
+    height: 300px;
     border-radius: 38%;
     object-fit: cover;
 }
