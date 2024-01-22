@@ -176,8 +176,8 @@ footer{
         margin: 0;
     }
     .logo img{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     }
     
     .logo a{
@@ -195,13 +195,13 @@ footer{
     
     .menu li a{
         color: black;
-        font-size: 26px;
+        font-size: 16px;
         text-decoration: none;
         font-weight: bold;
     }
     .topg{
         width: 100%;
-        height: 500px;
+        height: 250px;
     }
     .topg img{
         width: 100%;
@@ -220,7 +220,7 @@ footer{
         top: 50%;
         left: 50%;
         transform: translate(-50%,-320%);
-        font-size: 64px;
+        font-size: 32px;
         color: #C1DF92;
         font-weight: bold;
     }
@@ -232,22 +232,25 @@ footer{
     }
     
     .fotg .txt{
-        width: 200px;
-        height: 300px;
-        padding: 50px;
-        font-size: 20px;
+        width: 590px;
+        height: 270px;
+        padding: 20px;
+        font-size: 16px;
         text-align: left;
         background-color: #C1DF92;
         border-radius: 40px;
         justify-content: center;
     }
+    .w100{
+        width: 100%;
+    }
     .fimg img{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-100%,190%);
-        width: 200px;
-        height: 300px;
+        transform: translate(-100%,150%);
+        width: 250px;
+        height: 200px;
         padding: 20px;
         border-radius: 200px;
         object-fit: cover;
@@ -308,9 +311,9 @@ footer{
         position: absolute;
         top: 50%;
         left: 50%;
-        width: 20%;
-        transform: translate(-28%,750%);
+        transform: translate(-28%,600%);
       }
+    
 }
 
 
