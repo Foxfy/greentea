@@ -32,11 +32,12 @@ nav{
 
 .menu{
     display: flex;
+    font-size: 18px;
     list-style: none;
     align-items: center;
 }
 .menu li{
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .menu li a{
@@ -176,8 +177,8 @@ footer{
         margin: 0;
     }
     .logo img{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
     }
     
     .logo a{
@@ -195,7 +196,7 @@ footer{
     
     .menu li a{
         color: black;
-        font-size: 16px;
+        font-size: 26px;
         text-decoration: none;
         font-weight: bold;
     }

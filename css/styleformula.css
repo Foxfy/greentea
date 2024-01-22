@@ -37,7 +37,7 @@ nav{
     align-items: center;
 }
 .menu li{
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .menu li a{
@@ -254,7 +254,7 @@ footer{
     
     
     .fotg .txt{
-        padding: 100px;
+        padding: 0px;
         font-size: 20px;
         text-align: left;
         
